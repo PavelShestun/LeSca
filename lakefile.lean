@@ -17,5 +17,6 @@ lean_lib LeanMetrics where
     `RigorousExtensions,
     `ThermodynamicStability,
     `ExactRenormalization,
-    `TransferMatrixRG
+    `TransferMatrixRG,
+    `ThermodynamicLimit
   ]

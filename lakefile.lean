@@ -18,5 +18,12 @@ lean_lib LeanMetrics where
     `ThermodynamicStability,
     `ExactRenormalization,
     `TransferMatrixRG,
-    `ThermodynamicLimit
+    `ThermodynamicLimit,
+    `LadderScaling,
+    `DefectLadder,
+    `WidomFunctionalScaling,
+    `Certifier
   ]
+
+lean_exe certifier where
+  root := `Main

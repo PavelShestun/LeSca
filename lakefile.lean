@@ -22,7 +22,10 @@ lean_lib LeanMetrics where
     `LadderScaling,
     `DefectLadder,
     `WidomFunctionalScaling,
-    `Certifier
+    `Certifier,
+    `ArbitraryLadder,
+    `SuzukiTrotter,
+    `TRGBound
   ]
 
 lean_exe certifier where

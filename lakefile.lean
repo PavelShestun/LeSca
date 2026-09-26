@@ -2,7 +2,6 @@ import Lake
 open Lake DSL
 
 package lean_metrics where
-  -- Настройки пакета
 
 require "leanprover-community" / "mathlib"
 
@@ -17,5 +16,6 @@ lean_lib LeanMetrics where
     `CriticalScaling,
     `RigorousExtensions,
     `ThermodynamicStability,
-    `ExactRenormalization
+    `ExactRenormalization,
+    `TransferMatrixRG
   ]
